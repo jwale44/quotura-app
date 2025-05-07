@@ -53,7 +53,7 @@ PAYSTACK_SECRET_KEY=your_paystack_secret_key
 
 5. Run locally
 ```bash
-uvicorn app.main:app --reload --workers 1 --host 0.0.0.0 --port 8080
+uvicorn app.main:app --reload --workers 1 --host localhost --port 8080
 ```
 Production deployment
 ```bash
